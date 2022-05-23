@@ -1,4 +1,4 @@
-# python_plot
+# python_csv_plot
 
 同じフォルダ内にあるcsvファイルをグラフ化するプログラム
 
