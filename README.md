@@ -2,9 +2,9 @@
 
 同じフォルダ内にあるcsvファイルをグラフ化するプログラム
 
-出力は multi_arm.png になっている
+csvの形式は a,b,c.csv を参照してください．出力は multi_arm.png になっています．
 
 ## 実行方法
 ```
-python main.py
+python3 main.py
 ```
