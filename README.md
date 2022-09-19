@@ -1,10 +1,19 @@
 # csv-plot
 
-同じフォルダ内にあるcsvファイルをグラフ化するプログラム
+CSVフォルダにプロットしたいCSVファイルを格納するとグラフ化してくれるプログラム．
 
-csvの形式は a,b,c.csv を参照してください．出力は multi_arm.png になっています．
+自分の環境で生成したCSVファイル(例：a.csv等)が入っているフォルダ(例：sample)をcsvフォルダの下にコピーしてください．
+```
+.
+├── csv
+│   └── sample
+│       ├── a.csv
+│       ├── b.csv
+│       └── c.csv
+└── main.py
+```
 
 ## 実行方法
 ```
-python3 main.py
+python main.py [グラフのタイトル] [フォルダ名(例：sample)]
 ```
